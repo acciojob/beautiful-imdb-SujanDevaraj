@@ -1,2 +1,37 @@
 
 /* Your CSS Code here. */
+body, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the movie container */
+.movie-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Make the container take up the full viewport height */
+    background-color: #f0f0f0;
+}
+
+/* Style for the movie poster */
+.moviePic {
+    height: 300px;
+    width: auto;
+    opacity: 0.9;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Style for the movie description */
+.movieDetail {
+    position: relative;
+    top: -10px; /* Lift the description slightly */
+    width: 80%;
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+}
